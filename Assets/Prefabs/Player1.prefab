@@ -10,7 +10,6 @@ GameObject:
   - 4: {fileID: 447470}
   - 33: {fileID: 3325178}
   - 23: {fileID: 2344388}
-  - 95: {fileID: 9562748}
   - 54: {fileID: 5422368}
   - 65: {fileID: 6528104}
   - 114: {fileID: 11422990}
@@ -30,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 174678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .100000381, y: 7.80000019, z: 1.5}
-  m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
+  m_LocalScale: {x: .150000006, y: .150000006, z: .150000006}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,12 +72,12 @@ Rigidbody:
   m_GameObject: {fileID: 174678}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_Drag: 100
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 8
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!65 &6528104
 BoxCollider:
@@ -92,23 +91,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.5, y: 4.22967625, z: 3.09856534}
   m_Center: {x: 0, y: -.254951, z: -1.1920929e-07}
---- !u!95 &9562748
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 174678}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 820e9a5325543b7438a9d3a179f95fb5, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11415166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -121,6 +103,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   userID: 16
+  myColor:
+    serializedVersion: 2
+    rgba: 0
+  myLastZone: {fileID: 0}
 --- !u!114 &11422990
 MonoBehaviour:
   m_ObjectHideFlags: 1

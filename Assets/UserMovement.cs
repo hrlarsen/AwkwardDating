@@ -10,6 +10,7 @@ public class UserMovement : MonoBehaviour {
 	private Renderer myRenderer;
 	private Vector3 direction = Vector3.zero;
 	private Rigidbody myRigidbody;
+	public GameObject pinger;
 	// Use this for initialization
 	void Start () {
 		DatabaseInput.Instance.userDataCallbacks += OnCallback;
@@ -42,11 +43,13 @@ public class UserMovement : MonoBehaviour {
 			{
 //				Debug.Log(data[i].movement);
 				//transform.position += new Vector3(data[i].movement.x, data[i].movement.y,0) * 0.05f;
-				if(data[i].movement != null)
+				if(data[i].movement != Vector2.zero	)
 				{
+
 					//transform.position += new Vector3(data[i].movement.x, data[i].movement.y,0) * 0.05f;
 					direction += new Vector3(data[i].movement.x, data[i].movement.y,0);
 					direction.Normalize();
+
 				}
 				//if(data[i].ticks > 0)
 				//	Debug.Log("TICKS: " + data[i].ticks);
@@ -55,8 +58,11 @@ public class UserMovement : MonoBehaviour {
 				{
 					myLastZone.impulseCounter += data[i].ticks;
 					// SPAWN SOMETHING
-					myRenderer.material.color = Color.white;
+					//myRenderer.material.color = Color.white;
+					GameObject go = Instantiate(pinger, transform.position, Quaternion.identity) as GameObject;
+					go.GetComponent<Renderer>().material.color = myColor;
 				}
+
 				else
 				{
 					myRenderer.material.color = myColor;

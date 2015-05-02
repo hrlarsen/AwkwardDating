@@ -43,6 +43,7 @@ public class UserManager : MonoBehaviour
 		{
 			if(!users.Contains(currentActiveUsers[i]))
 			{
+				Destroy(GameObject.Find("User_" + currentActiveUsers[i].id));
 				indexesToRemove.Add(i);
 
 			}
@@ -50,7 +51,7 @@ public class UserManager : MonoBehaviour
 
 		for(int i = 0; i < indexesToRemove.Count; i++)
 		{
-			Destroy(GameObject.Find("User_" + currentActiveUsers[indexesToRemove[i]].id));
+
 			currentActiveUsers.RemoveAt(indexesToRemove[i]);
 
 		}

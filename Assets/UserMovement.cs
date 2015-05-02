@@ -39,10 +39,11 @@ public class UserMovement : MonoBehaviour {
 			{
 //				Debug.Log(data[i].movement);
 				//transform.position += new Vector3(data[i].movement.x, data[i].movement.y,0) * 0.05f;
-				GetComponent<Rigidbody>().AddForce(new Vector3(data[i].movement.x, data[i].movement.y,0) * 10, ForceMode.Force);
+				if(data[i].movement != null)
+					GetComponent<Rigidbody>().AddForce(new Vector3(data[i].movement.x, data[i].movement.y,0) * 10, ForceMode.Force);
 				//if(data[i].ticks > 0)
 				//	Debug.Log("TICKS: " + data[i].ticks);
-				Debug.Log(myLastZone);
+//				Debug.Log(myLastZone);
 				if(data[i].ticks > 0 && myLastZone != null)
 				{
 					myLastZone.impulseCounter += data[i].ticks;
@@ -59,5 +60,10 @@ public class UserMovement : MonoBehaviour {
 				break;
 			}
 		}
+	}
+
+	void OnDestroy()
+	{
+		DatabaseInput.Instance.userDataCallbacks -= OnCallback;
 	}
 }

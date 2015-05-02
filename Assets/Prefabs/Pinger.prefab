@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 441244}
   - 33: {fileID: 3334202}
   - 23: {fileID: 2370304}
-  - 111: {fileID: 11146362}
+  - 114: {fileID: 11469694}
   m_Layer: 0
   m_Name: Pinger
   m_TagString: Untagged
@@ -61,21 +61,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169814}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &11146362
-Animation:
+--- !u!114 &11469694
+MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169814}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 20888df7628db44aabbd4ee54f3ad37e, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 20888df7628db44aabbd4ee54f3ad37e, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89347ca5084844096a4db446332fd88d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

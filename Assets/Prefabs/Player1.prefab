@@ -107,6 +107,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   myLastZone: {fileID: 0}
+  pinger: {fileID: 169814, guid: e80bd958a288e4cf0b4df0bef117a43c, type: 2}
 --- !u!114 &11422990
 MonoBehaviour:
   m_ObjectHideFlags: 1

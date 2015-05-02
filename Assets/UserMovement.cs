@@ -8,10 +8,13 @@ public class UserMovement : MonoBehaviour {
 	public Color32 myColor;
 	public ZoneTrigger myLastZone;
 	private Renderer myRenderer;
+	private Vector3 direction = Vector3.zero;
+	private Rigidbody myRigidbody;
 	// Use this for initialization
 	void Start () {
 		DatabaseInput.Instance.userDataCallbacks += OnCallback;
 		myRenderer = GetComponent<Renderer>();
+		myRigidbody = GetComponent<Rigidbody>();
 	}
 
 	void OnTriggerEnter(Collider trigger)
@@ -40,7 +43,11 @@ public class UserMovement : MonoBehaviour {
 //				Debug.Log(data[i].movement);
 				//transform.position += new Vector3(data[i].movement.x, data[i].movement.y,0) * 0.05f;
 				if(data[i].movement != null)
-					GetComponent<Rigidbody>().AddForce(new Vector3(data[i].movement.x, data[i].movement.y,0) * 10, ForceMode.Force);
+				{
+					//transform.position += new Vector3(data[i].movement.x, data[i].movement.y,0) * 0.05f;
+					direction += new Vector3(data[i].movement.x, data[i].movement.y,0);
+					direction.Normalize();
+				}
 				//if(data[i].ticks > 0)
 				//	Debug.Log("TICKS: " + data[i].ticks);
 //				Debug.Log(myLastZone);
@@ -60,6 +67,13 @@ public class UserMovement : MonoBehaviour {
 				break;
 			}
 		}
+	}
+
+	void FixedUpdate()
+	{
+		myRigidbody.MovePosition(transform.position + direction * 0.05f);
+		direction = Vector3.Slerp(direction, Vector3.zero, Time.fixedDeltaTime * 3);
+
 	}
 
 	void OnDestroy()

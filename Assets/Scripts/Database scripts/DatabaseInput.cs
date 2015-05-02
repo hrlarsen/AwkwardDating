@@ -98,7 +98,10 @@ public class DatabaseInput : MonoBehaviour
 					{
 						UserMovementDataObject user = new UserMovementDataObject();
 						user.id = id;
-						user.movement = movementVector;
+						if(movementVector == Vector2.zero)
+							user.ticks++;
+						else
+							user.movement = movementVector;
 						data.Add(user);
 						currentIndex++;
 					}
@@ -106,7 +109,10 @@ public class DatabaseInput : MonoBehaviour
 				{
 					UserMovementDataObject user = new UserMovementDataObject();
 					user.id = id;
-					user.movement = movementVector;
+					if(movementVector == Vector2.zero)
+						user.ticks++;
+					else
+						user.movement = movementVector;
 					data.Add(user);
 					currentIndex++;
 				}

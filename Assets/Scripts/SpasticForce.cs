@@ -12,14 +12,11 @@ public class SpasticForce : MonoBehaviour
         _rb = GetComponent<Rigidbody>();
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.P))
-            AddImpulseForce();
-    }
 
-    void AddImpulseForce()
+    public void AddImpulseForce()
     {
         _rb.AddForce(Force, ForceMode.Impulse);
     }
+
+
 }

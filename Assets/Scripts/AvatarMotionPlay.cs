@@ -21,6 +21,8 @@ public class AvatarMotionPlay : MonoBehaviour
     public float ImpulsePressingCooldownThreshold = 0.2f;
     public AnimationToPlay CurrentAnimation = AnimationToPlay.None;
 
+	public SpasticForce head, leftArm, rightArm, leftLeg, rightLeg;
+
     protected Animator animator;
     private float ImpulsePressingCooldown;
     private bool IsSendingImpulse;
@@ -34,48 +36,55 @@ public class AvatarMotionPlay : MonoBehaviour
 
     }
 
-    public void SendImpulse(AnimationToPlay anim)
-    {
+    public void SendImpulse(AnimationToPlay anim, Zones zone)
+	{
         IsSendingImpulse = true;
-
-        string animationName = "";
-        switch (anim)
-        {
-            case AnimationToPlay.Handshake:
-                animationName = "PlayHandShakeTrigger";
-                break;
-
-            case AnimationToPlay.DrinkWine:
-                animationName = "PlayWineTrigger";
-                break;
-
-            case AnimationToPlay.Kiss:
-                animationName = "PlayKissTrigger";
-                break;
-
-            case AnimationToPlay.Eat:
-                animationName = "PlayEatTrigger";
-                break;
-        }
-
+		if(zone == ZoneManager.Instance.correctZone)
+		{
+			if (CurrentAnimation != anim)
+			{
+				animator.SetTrigger(anim.ToString());
+				CurrentAnimation = anim;
+				//Debug.Log("New animation set");
+			}
+		}
+		else
+		{
+			switch(zone)
+			{
+			case Zones.LeftArm:
+				leftArm.AddImpulseForce();
+				break;
+			case Zones.RightArm:
+				rightArm.AddImpulseForce();
+				break;
+			case Zones.LeftLeg:
+				leftLeg.AddImpulseForce();
+				break;
+			case Zones.RightLeg:
+				rightLeg.AddImpulseForce();
+				break;
+			case Zones.LeftHead:
+				head.AddImpulseForce();
+				break;
+			case Zones.RightHead:
+				head.AddImpulseForce();
+				break;
+			};
+		}
         
-        if (CurrentAnimation != anim)
-        {
-            animator.SetTrigger(animationName);
-            CurrentAnimation = anim;
-            //Debug.Log("New animation set");
-        }
+        
     }
 
     // Update is called once per frame
     private void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.A))
+        /*if (Input.GetKeyDown(KeyCode.A))
             SendImpulse(AnimationToPlay.Eat);
 
         if (Input.GetKeyDown(KeyCode.S))
-            SendImpulse(AnimationToPlay.Handshake);
+            SendImpulse(AnimationToPlay.Handshake);*/
 
         if (IsSendingImpulse)
         {

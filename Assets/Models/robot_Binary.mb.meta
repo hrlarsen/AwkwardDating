@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: ee41d15b497852e4189f94c5c26e1d05
+timeCreated: 1430556936
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Robo_blackfox:robo_elbowLeftikCTRL
+    100002: Robo_blackfox:robo_elbowRightikCTRL
+    100004: Robo_blackfox:robo_head
+    100006: Robo_blackfox:robo_headAimCTRL
+    100008: Robo_blackfox:robo_headFkCTRL
+    100010: Robo_blackfox:robo_hips
+    100012: Robo_blackfox:robo_hipsCTRL
+    100014: Robo_blackfox:robo_ikHandle_leftAnkle
+    100016: Robo_blackfox:robo_ikHandle_leftFoot
+    100018: Robo_blackfox:robo_ikHandle_leftToe
+    100020: Robo_blackfox:robo_ikHandle_leftWrist
+    100022: Robo_blackfox:robo_ikHandle_rightAnkle
+    100024: Robo_blackfox:robo_ikHandle_rightFoot
+    100026: Robo_blackfox:robo_ikHandle_rightToe
+    100028: Robo_blackfox:robo_ikHandle_rightWrist
+    100030: Robo_blackfox:robo_kneeLeftCTRL
+    100032: Robo_blackfox:robo_kneeRightCTRL
+    100034: Robo_blackfox:robo_lamp
+    100036: Robo_blackfox:robo_lampFOG
+    100038: Robo_blackfox:robo_left_ankle
+    100040: Robo_blackfox:robo_left_arm
+    100042: Robo_blackfox:robo_left_foot
+    100044: Robo_blackfox:robo_left_forearm
+    100046: Robo_blackfox:robo_left_indexfinger1
+    100048: Robo_blackfox:robo_left_indexfinger2
+    100050: Robo_blackfox:robo_left_leg
+    100052: Robo_blackfox:robo_left_middlefinger1
+    100054: Robo_blackfox:robo_left_middlefinger2
+    100056: Robo_blackfox:robo_left_smallfinger1
+    100058: Robo_blackfox:robo_left_smallfinger2
+    100060: Robo_blackfox:robo_left_thigh
+    100062: Robo_blackfox:robo_left_thigh_root
+    100064: Robo_blackfox:robo_left_thumbfinger1
+    100066: Robo_blackfox:robo_left_thumbfinger2
+    100068: Robo_blackfox:robo_left_toe
+    100070: Robo_blackfox:robo_leftArmFkCTRL
+    100072: Robo_blackfox:robo_leftElbowFkCTRL
+    100074: Robo_blackfox:robo_leftFootCTRL
+    100076: Robo_blackfox:robo_leftHand
+    100078: Robo_blackfox:robo_leftHandFkCTRL
+    100080: Robo_blackfox:robo_leftHandikCTRL
+    100082: Robo_blackfox:robo_lower_spine
+    100084: Robo_blackfox:robo_right_ankle
+    100086: Robo_blackfox:robo_right_arm
+    100088: Robo_blackfox:robo_right_foot
+    100090: Robo_blackfox:robo_right_forearm
+    100092: Robo_blackfox:robo_right_indexfinger1
+    100094: Robo_blackfox:robo_right_indexfinger2
+    100096: Robo_blackfox:robo_right_leg
+    100098: Robo_blackfox:robo_right_middlefinger1
+    100100: Robo_blackfox:robo_right_middlefinger2
+    100102: Robo_blackfox:robo_right_smallfinger1
+    100104: Robo_blackfox:robo_right_smallfinger2
+    100106: Robo_blackfox:robo_right_thigh
+    100108: Robo_blackfox:robo_right_thigh_root
+    100110: Robo_blackfox:robo_right_thumbfinger1
+    100112: Robo_blackfox:robo_right_thumbfinger2
+    100114: Robo_blackfox:robo_right_toe
+    100116: Robo_blackfox:robo_rightArmFkCTRL
+    100118: Robo_blackfox:robo_rightElbowFkCTRL
+    100120: Robo_blackfox:robo_rightFootCTRL
+    100122: Robo_blackfox:robo_rightHand
+    100124: Robo_blackfox:robo_rightHandFkCTRL
+    100126: Robo_blackfox:robo_rightHandikCTRL
+    100128: Robo_blackfox:robo_root
+    100130: Robo_blackfox:robo_root_spine
+    100132: Robo_blackfox:robo_spineCTRL
+    100134: Robo_blackfox:robo_top_spine
+    100136: Robo_blackfox:robo_torsuspine
+    100138: Robo_blackfox:robo_turso
+    100140: Robo_blackfox:robo_upper_spine
+    100142: Robo_blackfox:roboControlerGRP
+    100144: Robo_blackfox:roboJoint_chest
+    100146: Robo_blackfox:roboJoint_head
+    100148: Robo_blackfox:roboJoint_ikLeftArm
+    100150: Robo_blackfox:roboJoint_ikLeftElbow
+    100152: Robo_blackfox:roboJoint_ikLeftWrist
+    100154: Robo_blackfox:roboJoint_ikRightArm
+    100156: Robo_blackfox:roboJoint_ikRighttElbow
+    100158: Robo_blackfox:roboJoint_ikRightWrist
+    100160: Robo_blackfox:roboJoint_leftAnkle
+    100162: Robo_blackfox:roboJoint_leftFoot
+    100164: Robo_blackfox:roboJoint_leftKnee
+    100166: Robo_blackfox:roboJoint_leftLeg
+    100168: Robo_blackfox:roboJoint_leftToe
+    100170: Robo_blackfox:roboJoint_rightAnkle
+    100172: Robo_blackfox:roboJoint_rightFoot
+    100174: Robo_blackfox:roboJoint_rightKnee
+    100176: Robo_blackfox:roboJoint_rightLeg
+    100178: Robo_blackfox:roboJoint_rightToe
+    100180: Robo_blackfox:roboJoint_root
+    100182: Robo_blackfox:roboJoint_spine1
+    100184: Robo_blackfox:roboJoint_spine2
+    100186: Robo_blackfox:roboJoint_spine3
+    100188: Robo_blackfox:roboJoint_spine4
+    100190: Robo_blackfox:roboJoint_spine5
+    100192: Robo_blackfox:roboJointsGRP
+    100194: Robo_blackfox:roboLocator_chest
+    100196: Robo_blackfox:roboLocator_chestForARMS
+    100198: Robo_blackfox:roboLocator_leftAnkle
+    100200: Robo_blackfox:roboLocator_LeftArm
+    100202: Robo_blackfox:roboLocator_leftHeel
+    100204: Robo_blackfox:roboLocator_leftHeelGRP
+    100206: Robo_blackfox:roboLocator_leftRoll
+    100208: Robo_blackfox:roboLocator_leftToe
+    100210: Robo_blackfox:roboLocator_leftToeRoll
+    100212: Robo_blackfox:roboLocator_RightArm
+    100214: Robo_blackfox:roboLocator_rightHeel
+    100216: Robo_blackfox:roboLocator_rightHeelGRP
+    100218: Robo_blackfox:roboLocator_rightRoll
+    100220: Robo_blackfox:roboLocator_righttAnkle
+    100222: Robo_blackfox:roboLocator_rightToe
+    100224: Robo_blackfox:roboLocator_rightToeRoll
+    100226: Robo_blackfox:roboPolyMeshGRP
+    100228: Robo_blackfox:roboRootCTRL
+    100230: //RootNode
+    400000: Robo_blackfox:robo_elbowLeftikCTRL
+    400002: Robo_blackfox:robo_elbowRightikCTRL
+    400004: Robo_blackfox:robo_head
+    400006: Robo_blackfox:robo_headAimCTRL
+    400008: Robo_blackfox:robo_headFkCTRL
+    400010: Robo_blackfox:robo_hips
+    400012: Robo_blackfox:robo_hipsCTRL
+    400014: Robo_blackfox:robo_ikHandle_leftAnkle
+    400016: Robo_blackfox:robo_ikHandle_leftFoot
+    400018: Robo_blackfox:robo_ikHandle_leftToe
+    400020: Robo_blackfox:robo_ikHandle_leftWrist
+    400022: Robo_blackfox:robo_ikHandle_rightAnkle
+    400024: Robo_blackfox:robo_ikHandle_rightFoot
+    400026: Robo_blackfox:robo_ikHandle_rightToe
+    400028: Robo_blackfox:robo_ikHandle_rightWrist
+    400030: Robo_blackfox:robo_kneeLeftCTRL
+    400032: Robo_blackfox:robo_kneeRightCTRL
+    400034: Robo_blackfox:robo_lamp
+    400036: Robo_blackfox:robo_lampFOG
+    400038: Robo_blackfox:robo_left_ankle
+    400040: Robo_blackfox:robo_left_arm
+    400042: Robo_blackfox:robo_left_foot
+    400044: Robo_blackfox:robo_left_forearm
+    400046: Robo_blackfox:robo_left_indexfinger1
+    400048: Robo_blackfox:robo_left_indexfinger2
+    400050: Robo_blackfox:robo_left_leg
+    400052: Robo_blackfox:robo_left_middlefinger1
+    400054: Robo_blackfox:robo_left_middlefinger2
+    400056: Robo_blackfox:robo_left_smallfinger1
+    400058: Robo_blackfox:robo_left_smallfinger2
+    400060: Robo_blackfox:robo_left_thigh
+    400062: Robo_blackfox:robo_left_thigh_root
+    400064: Robo_blackfox:robo_left_thumbfinger1
+    400066: Robo_blackfox:robo_left_thumbfinger2
+    400068: Robo_blackfox:robo_left_toe
+    400070: Robo_blackfox:robo_leftArmFkCTRL
+    400072: Robo_blackfox:robo_leftElbowFkCTRL
+    400074: Robo_blackfox:robo_leftFootCTRL
+    400076: Robo_blackfox:robo_leftHand
+    400078: Robo_blackfox:robo_leftHandFkCTRL
+    400080: Robo_blackfox:robo_leftHandikCTRL
+    400082: Robo_blackfox:robo_lower_spine
+    400084: Robo_blackfox:robo_right_ankle
+    400086: Robo_blackfox:robo_right_arm
+    400088: Robo_blackfox:robo_right_foot
+    400090: Robo_blackfox:robo_right_forearm
+    400092: Robo_blackfox:robo_right_indexfinger1
+    400094: Robo_blackfox:robo_right_indexfinger2
+    400096: Robo_blackfox:robo_right_leg
+    400098: Robo_blackfox:robo_right_middlefinger1
+    400100: Robo_blackfox:robo_right_middlefinger2
+    400102: Robo_blackfox:robo_right_smallfinger1
+    400104: Robo_blackfox:robo_right_smallfinger2
+    400106: Robo_blackfox:robo_right_thigh
+    400108: Robo_blackfox:robo_right_thigh_root
+    400110: Robo_blackfox:robo_right_thumbfinger1
+    400112: Robo_blackfox:robo_right_thumbfinger2
+    400114: Robo_blackfox:robo_right_toe
+    400116: Robo_blackfox:robo_rightArmFkCTRL
+    400118: Robo_blackfox:robo_rightElbowFkCTRL
+    400120: Robo_blackfox:robo_rightFootCTRL
+    400122: Robo_blackfox:robo_rightHand
+    400124: Robo_blackfox:robo_rightHandFkCTRL
+    400126: Robo_blackfox:robo_rightHandikCTRL
+    400128: Robo_blackfox:robo_root
+    400130: Robo_blackfox:robo_root_spine
+    400132: Robo_blackfox:robo_spineCTRL
+    400134: Robo_blackfox:robo_top_spine
+    400136: Robo_blackfox:robo_torsuspine
+    400138: Robo_blackfox:robo_turso
+    400140: Robo_blackfox:robo_upper_spine
+    400142: Robo_blackfox:roboControlerGRP
+    400144: Robo_blackfox:roboJoint_chest
+    400146: Robo_blackfox:roboJoint_head
+    400148: Robo_blackfox:roboJoint_ikLeftArm
+    400150: Robo_blackfox:roboJoint_ikLeftElbow
+    400152: Robo_blackfox:roboJoint_ikLeftWrist
+    400154: Robo_blackfox:roboJoint_ikRightArm
+    400156: Robo_blackfox:roboJoint_ikRighttElbow
+    400158: Robo_blackfox:roboJoint_ikRightWrist
+    400160: Robo_blackfox:roboJoint_leftAnkle
+    400162: Robo_blackfox:roboJoint_leftFoot
+    400164: Robo_blackfox:roboJoint_leftKnee
+    400166: Robo_blackfox:roboJoint_leftLeg
+    400168: Robo_blackfox:roboJoint_leftToe
+    400170: Robo_blackfox:roboJoint_rightAnkle
+    400172: Robo_blackfox:roboJoint_rightFoot
+    400174: Robo_blackfox:roboJoint_rightKnee
+    400176: Robo_blackfox:roboJoint_rightLeg
+    400178: Robo_blackfox:roboJoint_rightToe
+    400180: Robo_blackfox:roboJoint_root
+    400182: Robo_blackfox:roboJoint_spine1
+    400184: Robo_blackfox:roboJoint_spine2
+    400186: Robo_blackfox:roboJoint_spine3
+    400188: Robo_blackfox:roboJoint_spine4
+    400190: Robo_blackfox:roboJoint_spine5
+    400192: Robo_blackfox:roboJointsGRP
+    400194: Robo_blackfox:roboLocator_chest
+    400196: Robo_blackfox:roboLocator_chestForARMS
+    400198: Robo_blackfox:roboLocator_leftAnkle
+    400200: Robo_blackfox:roboLocator_LeftArm
+    400202: Robo_blackfox:roboLocator_leftHeel
+    400204: Robo_blackfox:roboLocator_leftHeelGRP
+    400206: Robo_blackfox:roboLocator_leftRoll
+    400208: Robo_blackfox:roboLocator_leftToe
+    400210: Robo_blackfox:roboLocator_leftToeRoll
+    400212: Robo_blackfox:roboLocator_RightArm
+    400214: Robo_blackfox:roboLocator_rightHeel
+    400216: Robo_blackfox:roboLocator_rightHeelGRP
+    400218: Robo_blackfox:roboLocator_rightRoll
+    400220: Robo_blackfox:roboLocator_righttAnkle
+    400222: Robo_blackfox:roboLocator_rightToe
+    400224: Robo_blackfox:roboLocator_rightToeRoll
+    400226: Robo_blackfox:roboPolyMeshGRP
+    400228: Robo_blackfox:roboRootCTRL
+    400230: //RootNode
+    2300000: Robo_blackfox:robo_head
+    2300002: Robo_blackfox:robo_hips
+    2300004: Robo_blackfox:robo_lamp
+    2300006: Robo_blackfox:robo_lampFOG
+    2300008: Robo_blackfox:robo_left_ankle
+    2300010: Robo_blackfox:robo_left_arm
+    2300012: Robo_blackfox:robo_left_foot
+    2300014: Robo_blackfox:robo_left_forearm
+    2300016: Robo_blackfox:robo_left_indexfinger1
+    2300018: Robo_blackfox:robo_left_indexfinger2
+    2300020: Robo_blackfox:robo_left_leg
+    2300022: Robo_blackfox:robo_left_middlefinger1
+    2300024: Robo_blackfox:robo_left_middlefinger2
+    2300026: Robo_blackfox:robo_left_smallfinger1
+    2300028: Robo_blackfox:robo_left_smallfinger2
+    2300030: Robo_blackfox:robo_left_thigh
+    2300032: Robo_blackfox:robo_left_thigh_root
+    2300034: Robo_blackfox:robo_left_thumbfinger1
+    2300036: Robo_blackfox:robo_left_thumbfinger2
+    2300038: Robo_blackfox:robo_left_toe
+    2300040: Robo_blackfox:robo_leftHand
+    2300042: Robo_blackfox:robo_lower_spine
+    2300044: Robo_blackfox:robo_right_ankle
+    2300046: Robo_blackfox:robo_right_arm
+    2300048: Robo_blackfox:robo_right_foot
+    2300050: Robo_blackfox:robo_right_forearm
+    2300052: Robo_blackfox:robo_right_indexfinger1
+    2300054: Robo_blackfox:robo_right_indexfinger2
+    2300056: Robo_blackfox:robo_right_leg
+    2300058: Robo_blackfox:robo_right_middlefinger1
+    2300060: Robo_blackfox:robo_right_middlefinger2
+    2300062: Robo_blackfox:robo_right_smallfinger1
+    2300064: Robo_blackfox:robo_right_smallfinger2
+    2300066: Robo_blackfox:robo_right_thigh
+    2300068: Robo_blackfox:robo_right_thigh_root
+    2300070: Robo_blackfox:robo_right_thumbfinger1
+    2300072: Robo_blackfox:robo_right_thumbfinger2
+    2300074: Robo_blackfox:robo_right_toe
+    2300076: Robo_blackfox:robo_rightHand
+    2300078: Robo_blackfox:robo_root
+    2300080: Robo_blackfox:robo_root_spine
+    2300082: Robo_blackfox:robo_top_spine
+    2300084: Robo_blackfox:robo_torsuspine
+    2300086: Robo_blackfox:robo_turso
+    2300088: Robo_blackfox:robo_upper_spine
+    3300000: Robo_blackfox:robo_head
+    3300002: Robo_blackfox:robo_hips
+    3300004: Robo_blackfox:robo_lamp
+    3300006: Robo_blackfox:robo_lampFOG
+    3300008: Robo_blackfox:robo_left_ankle
+    3300010: Robo_blackfox:robo_left_arm
+    3300012: Robo_blackfox:robo_left_foot
+    3300014: Robo_blackfox:robo_left_forearm
+    3300016: Robo_blackfox:robo_left_indexfinger1
+    3300018: Robo_blackfox:robo_left_indexfinger2
+    3300020: Robo_blackfox:robo_left_leg
+    3300022: Robo_blackfox:robo_left_middlefinger1
+    3300024: Robo_blackfox:robo_left_middlefinger2
+    3300026: Robo_blackfox:robo_left_smallfinger1
+    3300028: Robo_blackfox:robo_left_smallfinger2
+    3300030: Robo_blackfox:robo_left_thigh
+    3300032: Robo_blackfox:robo_left_thigh_root
+    3300034: Robo_blackfox:robo_left_thumbfinger1
+    3300036: Robo_blackfox:robo_left_thumbfinger2
+    3300038: Robo_blackfox:robo_left_toe
+    3300040: Robo_blackfox:robo_leftHand
+    3300042: Robo_blackfox:robo_lower_spine
+    3300044: Robo_blackfox:robo_right_ankle
+    3300046: Robo_blackfox:robo_right_arm
+    3300048: Robo_blackfox:robo_right_foot
+    3300050: Robo_blackfox:robo_right_forearm
+    3300052: Robo_blackfox:robo_right_indexfinger1
+    3300054: Robo_blackfox:robo_right_indexfinger2
+    3300056: Robo_blackfox:robo_right_leg
+    3300058: Robo_blackfox:robo_right_middlefinger1
+    3300060: Robo_blackfox:robo_right_middlefinger2
+    3300062: Robo_blackfox:robo_right_smallfinger1
+    3300064: Robo_blackfox:robo_right_smallfinger2
+    3300066: Robo_blackfox:robo_right_thigh
+    3300068: Robo_blackfox:robo_right_thigh_root
+    3300070: Robo_blackfox:robo_right_thumbfinger1
+    3300072: Robo_blackfox:robo_right_thumbfinger2
+    3300074: Robo_blackfox:robo_right_toe
+    3300076: Robo_blackfox:robo_rightHand
+    3300078: Robo_blackfox:robo_root
+    3300080: Robo_blackfox:robo_root_spine
+    3300082: Robo_blackfox:robo_top_spine
+    3300084: Robo_blackfox:robo_torsuspine
+    3300086: Robo_blackfox:robo_turso
+    3300088: Robo_blackfox:robo_upper_spine
+    4300000: Robo_blackfox:robo_hips
+    4300002: Robo_blackfox:robo_left_thigh_root
+    4300004: Robo_blackfox:robo_right_thigh_root
+    4300006: Robo_blackfox:robo_root
+    4300008: Robo_blackfox:robo_left_arm
+    4300010: Robo_blackfox:robo_left_forearm
+    4300012: Robo_blackfox:robo_leftHand
+    4300014: Robo_blackfox:robo_left_thumbfinger1
+    4300016: Robo_blackfox:robo_left_thumbfinger2
+    4300018: Robo_blackfox:robo_left_indexfinger1
+    4300020: Robo_blackfox:robo_left_indexfinger2
+    4300022: Robo_blackfox:robo_left_middlefinger1
+    4300024: Robo_blackfox:robo_left_middlefinger2
+    4300026: Robo_blackfox:robo_left_smallfinger1
+    4300028: Robo_blackfox:robo_left_smallfinger2
+    4300030: Robo_blackfox:robo_right_forearm
+    4300032: Robo_blackfox:robo_right_arm
+    4300034: Robo_blackfox:robo_left_foot
+    4300036: Robo_blackfox:robo_right_toe
+    4300038: Robo_blackfox:robo_left_toe
+    4300040: Robo_blackfox:robo_right_leg
+    4300042: Robo_blackfox:robo_right_ankle
+    4300044: Robo_blackfox:robo_left_leg
+    4300046: Robo_blackfox:robo_left_ankle
+    4300048: Robo_blackfox:robo_right_foot
+    4300050: Robo_blackfox:robo_head
+    4300052: Robo_blackfox:robo_turso
+    4300054: Robo_blackfox:robo_lamp
+    4300056: Robo_blackfox:robo_lampFOG
+    4300058: Robo_blackfox:robo_torsuspine
+    4300060: Robo_blackfox:robo_top_spine
+    4300062: Robo_blackfox:robo_upper_spine
+    4300064: Robo_blackfox:robo_lower_spine
+    4300066: Robo_blackfox:robo_root_spine
+    4300068: Robo_blackfox:robo_right_thigh
+    4300070: Robo_blackfox:robo_left_thigh
+    4300072: Robo_blackfox:robo_rightHand
+    4300074: Robo_blackfox:robo_right_indexfinger1
+    4300076: Robo_blackfox:robo_right_indexfinger2
+    4300078: Robo_blackfox:robo_right_middlefinger1
+    4300080: Robo_blackfox:robo_right_middlefinger2
+    4300082: Robo_blackfox:robo_right_smallfinger1
+    4300084: Robo_blackfox:robo_right_smallfinger2
+    4300086: Robo_blackfox:robo_right_thumbfinger1
+    4300088: Robo_blackfox:robo_right_thumbfinger2
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:robo_elbowLeftikCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:robo_elbowRightikCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:robo_headAimCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:robo_headFkCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:robo_hipsCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:robo_hipsCTRL/Robo_blackfox:robo_spineCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:robo_hipsCTRL/Robo_blackfox:roboRootCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:robo_kneeLeftCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:robo_kneeRightCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:robo_leftFootCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:robo_leftHandikCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:robo_rightFootCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:robo_rightHandikCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:roboLocator_chestForARMS
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:roboLocator_chestForARMS/Robo_blackfox:robo_leftArmFkCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:roboLocator_chestForARMS/Robo_blackfox:robo_leftArmFkCTRL/Robo_blackfox:robo_leftElbowFkCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:roboLocator_chestForARMS/Robo_blackfox:robo_leftArmFkCTRL/Robo_blackfox:robo_leftElbowFkCTRL/Robo_blackfox:robo_leftHandFkCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:roboLocator_chestForARMS/Robo_blackfox:robo_rightArmFkCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:roboLocator_chestForARMS/Robo_blackfox:robo_rightArmFkCTRL/Robo_blackfox:robo_rightElbowFkCTRL
+        weight: 1
+      - path: Robo_blackfox:roboControlerGRP/Robo_blackfox:roboLocator_chestForARMS/Robo_blackfox:robo_rightArmFkCTRL/Robo_blackfox:robo_rightElbowFkCTRL/Robo_blackfox:robo_rightHandFkCTRL
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:robo_ikHandle_leftWrist
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:robo_ikHandle_rightWrist
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_ikLeftArm
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_ikLeftArm/Robo_blackfox:roboJoint_ikLeftElbow
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_ikLeftArm/Robo_blackfox:roboJoint_ikLeftElbow/Robo_blackfox:roboJoint_ikLeftWrist
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_ikRightArm
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_ikRightArm/Robo_blackfox:roboJoint_ikRighttElbow
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_ikRightArm/Robo_blackfox:roboJoint_ikRighttElbow/Robo_blackfox:roboJoint_ikRightWrist
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_leftLeg
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_leftLeg/Robo_blackfox:roboJoint_leftKnee
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_leftLeg/Robo_blackfox:roboJoint_leftKnee/Robo_blackfox:roboJoint_leftAnkle
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_leftLeg/Robo_blackfox:roboJoint_leftKnee/Robo_blackfox:roboJoint_leftAnkle/Robo_blackfox:roboJoint_leftFoot
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_leftLeg/Robo_blackfox:roboJoint_leftKnee/Robo_blackfox:roboJoint_leftAnkle/Robo_blackfox:roboJoint_leftFoot/Robo_blackfox:roboJoint_leftToe
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_rightLeg
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_rightLeg/Robo_blackfox:roboJoint_rightKnee
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_rightLeg/Robo_blackfox:roboJoint_rightKnee/Robo_blackfox:roboJoint_rightAnkle
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_rightLeg/Robo_blackfox:roboJoint_rightKnee/Robo_blackfox:roboJoint_rightAnkle/Robo_blackfox:roboJoint_rightFoot
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_rightLeg/Robo_blackfox:roboJoint_rightKnee/Robo_blackfox:roboJoint_rightAnkle/Robo_blackfox:roboJoint_rightFoot/Robo_blackfox:roboJoint_rightToe
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_root
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_root/Robo_blackfox:roboJoint_spine1
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_root/Robo_blackfox:roboJoint_spine1/Robo_blackfox:roboJoint_spine2
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_root/Robo_blackfox:roboJoint_spine1/Robo_blackfox:roboJoint_spine2/Robo_blackfox:roboJoint_spine3
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_root/Robo_blackfox:roboJoint_spine1/Robo_blackfox:roboJoint_spine2/Robo_blackfox:roboJoint_spine3/Robo_blackfox:roboJoint_spine4
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_root/Robo_blackfox:roboJoint_spine1/Robo_blackfox:roboJoint_spine2/Robo_blackfox:roboJoint_spine3/Robo_blackfox:roboJoint_spine4/Robo_blackfox:roboJoint_spine5
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_root/Robo_blackfox:roboJoint_spine1/Robo_blackfox:roboJoint_spine2/Robo_blackfox:roboJoint_spine3/Robo_blackfox:roboJoint_spine4/Robo_blackfox:roboJoint_spine5/Robo_blackfox:roboJoint_chest
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboJoint_root/Robo_blackfox:roboJoint_spine1/Robo_blackfox:roboJoint_spine2/Robo_blackfox:roboJoint_spine3/Robo_blackfox:roboJoint_spine4/Robo_blackfox:roboJoint_spine5/Robo_blackfox:roboJoint_chest/Robo_blackfox:roboJoint_head
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_chest
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_LeftArm
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_leftHeelGRP
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_leftHeelGRP/Robo_blackfox:roboLocator_leftHeel
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_leftHeelGRP/Robo_blackfox:roboLocator_leftHeel/Robo_blackfox:roboLocator_leftToe
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_leftHeelGRP/Robo_blackfox:roboLocator_leftHeel/Robo_blackfox:roboLocator_leftToe/Robo_blackfox:roboLocator_leftRoll
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_leftHeelGRP/Robo_blackfox:roboLocator_leftHeel/Robo_blackfox:roboLocator_leftToe/Robo_blackfox:roboLocator_leftRoll/Robo_blackfox:robo_ikHandle_leftFoot
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_leftHeelGRP/Robo_blackfox:roboLocator_leftHeel/Robo_blackfox:roboLocator_leftToe/Robo_blackfox:roboLocator_leftRoll/Robo_blackfox:roboLocator_leftAnkle
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_leftHeelGRP/Robo_blackfox:roboLocator_leftHeel/Robo_blackfox:roboLocator_leftToe/Robo_blackfox:roboLocator_leftRoll/Robo_blackfox:roboLocator_leftAnkle/Robo_blackfox:robo_ikHandle_leftAnkle
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_leftHeelGRP/Robo_blackfox:roboLocator_leftHeel/Robo_blackfox:roboLocator_leftToe/Robo_blackfox:roboLocator_leftToeRoll
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_leftHeelGRP/Robo_blackfox:roboLocator_leftHeel/Robo_blackfox:roboLocator_leftToe/Robo_blackfox:roboLocator_leftToeRoll/Robo_blackfox:robo_ikHandle_leftToe
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_RightArm
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_rightHeelGRP
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_rightHeelGRP/Robo_blackfox:roboLocator_rightHeel
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_rightHeelGRP/Robo_blackfox:roboLocator_rightHeel/Robo_blackfox:roboLocator_rightToe
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_rightHeelGRP/Robo_blackfox:roboLocator_rightHeel/Robo_blackfox:roboLocator_rightToe/Robo_blackfox:roboLocator_rightRoll
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_rightHeelGRP/Robo_blackfox:roboLocator_rightHeel/Robo_blackfox:roboLocator_rightToe/Robo_blackfox:roboLocator_rightRoll/Robo_blackfox:robo_ikHandle_rightFoot
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_rightHeelGRP/Robo_blackfox:roboLocator_rightHeel/Robo_blackfox:roboLocator_rightToe/Robo_blackfox:roboLocator_rightRoll/Robo_blackfox:roboLocator_righttAnkle
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_rightHeelGRP/Robo_blackfox:roboLocator_rightHeel/Robo_blackfox:roboLocator_rightToe/Robo_blackfox:roboLocator_rightRoll/Robo_blackfox:roboLocator_righttAnkle/Robo_blackfox:robo_ikHandle_rightAnkle
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_rightHeelGRP/Robo_blackfox:roboLocator_rightHeel/Robo_blackfox:roboLocator_rightToe/Robo_blackfox:roboLocator_rightToeRoll
+        weight: 1
+      - path: Robo_blackfox:roboJointsGRP/Robo_blackfox:roboLocator_rightHeelGRP/Robo_blackfox:roboLocator_rightHeel/Robo_blackfox:roboLocator_rightToe/Robo_blackfox:roboLocator_rightToeRoll/Robo_blackfox:robo_ikHandle_rightToe
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_head
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_hips
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_hips/Robo_blackfox:robo_left_thigh_root
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_hips/Robo_blackfox:robo_right_thigh_root
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_arm
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_arm/Robo_blackfox:robo_left_forearm
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_arm/Robo_blackfox:robo_left_forearm/Robo_blackfox:robo_leftHand
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_arm/Robo_blackfox:robo_left_forearm/Robo_blackfox:robo_leftHand/Robo_blackfox:robo_left_indexfinger1
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_arm/Robo_blackfox:robo_left_forearm/Robo_blackfox:robo_leftHand/Robo_blackfox:robo_left_indexfinger1/Robo_blackfox:robo_left_indexfinger2
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_arm/Robo_blackfox:robo_left_forearm/Robo_blackfox:robo_leftHand/Robo_blackfox:robo_left_middlefinger1
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_arm/Robo_blackfox:robo_left_forearm/Robo_blackfox:robo_leftHand/Robo_blackfox:robo_left_middlefinger1/Robo_blackfox:robo_left_middlefinger2
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_arm/Robo_blackfox:robo_left_forearm/Robo_blackfox:robo_leftHand/Robo_blackfox:robo_left_smallfinger1
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_arm/Robo_blackfox:robo_left_forearm/Robo_blackfox:robo_leftHand/Robo_blackfox:robo_left_smallfinger1/Robo_blackfox:robo_left_smallfinger2
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_arm/Robo_blackfox:robo_left_forearm/Robo_blackfox:robo_leftHand/Robo_blackfox:robo_left_thumbfinger1
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_arm/Robo_blackfox:robo_left_forearm/Robo_blackfox:robo_leftHand/Robo_blackfox:robo_left_thumbfinger1/Robo_blackfox:robo_left_thumbfinger2
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_foot
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_leg
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_leg/Robo_blackfox:robo_left_ankle
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_thigh
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_left_toe
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_lower_spine
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_right_arm
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_right_foot
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_right_forearm
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_right_leg
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_right_leg/Robo_blackfox:robo_right_ankle
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_right_thigh
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_right_toe
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_rightHand
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_rightHand/Robo_blackfox:robo_right_indexfinger1
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_rightHand/Robo_blackfox:robo_right_indexfinger1/Robo_blackfox:robo_right_indexfinger2
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_rightHand/Robo_blackfox:robo_right_middlefinger1
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_rightHand/Robo_blackfox:robo_right_middlefinger1/Robo_blackfox:robo_right_middlefinger2
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_rightHand/Robo_blackfox:robo_right_smallfinger1
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_rightHand/Robo_blackfox:robo_right_smallfinger1/Robo_blackfox:robo_right_smallfinger2
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_rightHand/Robo_blackfox:robo_right_thumbfinger1
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_rightHand/Robo_blackfox:robo_right_thumbfinger1/Robo_blackfox:robo_right_thumbfinger2
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_root
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_root_spine
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_top_spine
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_torsuspine
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_turso
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_turso/Robo_blackfox:robo_lamp
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_turso/Robo_blackfox:robo_lamp/Robo_blackfox:robo_lampFOG
+        weight: 1
+      - path: Robo_blackfox:roboPolyMeshGRP/Robo_blackfox:robo_upper_spine
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

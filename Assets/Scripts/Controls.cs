@@ -10,7 +10,7 @@ public class Controls : MonoBehaviour {
     // Use this for initialization
     void OnTriggerEnter(Collider trigger)
     {
-        Debug.Log("The trigger has been triggered:" + trigger.name);
+        //Debug.Log("The trigger has been triggered:" + trigger.name);
 
         trigger.GetComponent<ZoneTrigger>().counter++;
 
@@ -20,7 +20,7 @@ public class Controls : MonoBehaviour {
     void OnTriggerExit(Collider trigger)
     {
         trigger.GetComponent<ZoneTrigger>().counter--;
-        Debug.Log("The trigger has been NOT triggered:" + trigger.name);
+        //Debug.Log("The trigger has been NOT triggered:" + trigger.name);
 
         //myLastZone = null;
     }

@@ -84,11 +84,15 @@ public class DatabaseInput : MonoBehaviour
 				Vector2 movementVector = new Vector2();
 				movementVector.x = jsonObj[i].GetField("x").n;
 				movementVector.y = -jsonObj[i].GetField("y").n; // reverse y
+				movementVector.Normalize();
 				if(data.Count > 0)
 				{
 					if(data[currentIndex].id == id)
 					{
-						data[currentIndex].movement += movementVector;
+						if(movementVector == Vector2.zero)
+							data[currentIndex].ticks++;
+						else
+							data[currentIndex].movement += movementVector;
 					}
 					else
 					{

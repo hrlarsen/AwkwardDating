@@ -7,6 +7,7 @@ public class UserManager : MonoBehaviour
 	public static UserManager Instance;
 	[SerializeField]
 	private GameObject playerPrefab;
+	public Transform spawnPoint;
 	public float updateRate = 5.0f;
 	private float currentTime = 0;
 	List<UserInfo> currentActiveUsers = new List<UserInfo>();
@@ -59,9 +60,10 @@ public class UserManager : MonoBehaviour
 
 	void SpawnUser(UserInfo info)
 	{
-		GameObject go = Instantiate(playerPrefab) as GameObject;
+		GameObject go = Instantiate(playerPrefab, spawnPoint.position, Quaternion.identity) as GameObject;
 		go.name = "User_" + info.id;
 		go.GetComponent<UserMovement>().userID = info.id;
+		go.GetComponent<UserMovement>().myColor = info.color;
 		go.GetComponent<Renderer>().material.color = info.color;
 	}
 }

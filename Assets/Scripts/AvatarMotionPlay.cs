@@ -1,6 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+public enum AnimationToPlay
+{
+    None,
+    Handshake,
+    DrinkWine,
+    Kiss,
+    Eat
+}
+
 public class AvatarMotionPlay : MonoBehaviour
 {
 
@@ -10,18 +19,52 @@ public class AvatarMotionPlay : MonoBehaviour
     public float ImpulseMultiplier = 2;
     public float DecreaseMultiplier = 1;
     public float ImpulsePressingCooldownThreshold = 0.2f;
+    public AnimationToPlay CurrentAnimation = AnimationToPlay.None;
 
     protected Animator animator;
     private float ImpulsePressingCooldown;
     private bool IsSendingImpulse;
 
-
-
     // Use this for initialization
     private void Start()
     {
         animator = GetComponent<Animator>();
+        CurrentAnimation = AnimationToPlay.None;
+        animator.speed = 1;
 
+    }
+
+    public void SendImpulse(AnimationToPlay anim)
+    {
+        IsSendingImpulse = true;
+
+        string animationName = "";
+        switch (anim)
+        {
+            case AnimationToPlay.Handshake:
+                animationName = "PlayHandShakeTrigger";
+                break;
+
+            case AnimationToPlay.DrinkWine:
+                animationName = "PlayWineTrigger";
+                break;
+
+            case AnimationToPlay.Kiss:
+                animationName = "PlayKissTrigger";
+                break;
+
+            case AnimationToPlay.Eat:
+                animationName = "PlayEatTrigger";
+                break;
+        }
+
+        
+        if (CurrentAnimation != anim)
+        {
+            animator.SetTrigger(animationName);
+            CurrentAnimation = anim;
+            //Debug.Log("New animation set");
+        }
     }
 
     // Update is called once per frame
@@ -29,7 +72,10 @@ public class AvatarMotionPlay : MonoBehaviour
     {
 
         if (Input.GetKeyDown(KeyCode.A))
-            IsSendingImpulse = true;
+            SendImpulse(AnimationToPlay.Eat);
+
+        if (Input.GetKeyDown(KeyCode.S))
+            SendImpulse(AnimationToPlay.Handshake);
 
         if (IsSendingImpulse)
         {

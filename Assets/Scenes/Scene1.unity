@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: 0
-  avatar: {fileID: 768189474}
+  avatar: {fileID: 1226178296}
   impulseCounter: 0
   zone: 0
   anim: 0
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: 0
-  avatar: {fileID: 768189474}
+  avatar: {fileID: 1226178296}
   impulseCounter: 0
   zone: 2
   anim: 0
@@ -833,12 +833,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 268059128}
   m_RootOrder: 7
---- !u!114 &768189474 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11491448, guid: 0c5f0a93918f96541906553cd49a9320,
-    type: 2}
-  m_PrefabInternal: {fileID: 1762023952}
-  m_Script: {fileID: 11500000, guid: 1298a2557acea794d994f6039a40c4a6, type: 3}
+--- !u!1001 &763094653
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 545658917}
+    m_Modifications:
+    - target: {fileID: 415134, guid: 1ac1a7e75f2b54cb985c1a099218f467, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4.89618063
+      objectReference: {fileID: 0}
+    - target: {fileID: 415134, guid: 1ac1a7e75f2b54cb985c1a099218f467, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.77070618
+      objectReference: {fileID: 0}
+    - target: {fileID: 415134, guid: 1ac1a7e75f2b54cb985c1a099218f467, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 18.484026
+      objectReference: {fileID: 0}
+    - target: {fileID: 415134, guid: 1ac1a7e75f2b54cb985c1a099218f467, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.163064644
+      objectReference: {fileID: 0}
+    - target: {fileID: 415134, guid: 1ac1a7e75f2b54cb985c1a099218f467, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .00136181724
+      objectReference: {fileID: 0}
+    - target: {fileID: 415134, guid: 1ac1a7e75f2b54cb985c1a099218f467, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.000225126758
+      objectReference: {fileID: 0}
+    - target: {fileID: 415134, guid: 1ac1a7e75f2b54cb985c1a099218f467, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .986614466
+      objectReference: {fileID: 0}
+    - target: {fileID: 415134, guid: 1ac1a7e75f2b54cb985c1a099218f467, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 1ac1a7e75f2b54cb985c1a099218f467, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &813147269
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,7 +1037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: 0
-  avatar: {fileID: 768189474}
+  avatar: {fileID: 1226178296}
   impulseCounter: 0
   zone: 1
   anim: 0
@@ -1161,10 +1197,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: 0
-  avatar: {fileID: 768189474}
+  avatar: {fileID: 1226178296}
   impulseCounter: 0
   zone: 5
   anim: 0
+--- !u!114 &1226178296 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11400670, guid: 1ac1a7e75f2b54cb985c1a099218f467,
+    type: 2}
+  m_PrefabInternal: {fileID: 763094653}
+  m_Script: {fileID: 11500000, guid: 1298a2557acea794d994f6039a40c4a6, type: 3}
 --- !u!1 &1318841054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1267,7 +1309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: 0
-  avatar: {fileID: 768189474}
+  avatar: {fileID: 1226178296}
   impulseCounter: 0
   zone: 3
   anim: 0
@@ -1565,48 +1607,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 87391e4cc9037e648a7f82f437c5e639, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &1762023952
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 545658917}
-    m_Modifications:
-    - target: {fileID: 439344, guid: 0c5f0a93918f96541906553cd49a9320, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 5.81999731
-      objectReference: {fileID: 0}
-    - target: {fileID: 439344, guid: 0c5f0a93918f96541906553cd49a9320, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2.99487543
-      objectReference: {fileID: 0}
-    - target: {fileID: 439344, guid: 0c5f0a93918f96541906553cd49a9320, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 19.5041618
-      objectReference: {fileID: 0}
-    - target: {fileID: 439344, guid: 0c5f0a93918f96541906553cd49a9320, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -.299692482
-      objectReference: {fileID: 0}
-    - target: {fileID: 439344, guid: 0c5f0a93918f96541906553cd49a9320, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -5.81940329e-10
-      objectReference: {fileID: 0}
-    - target: {fileID: 439344, guid: 0c5f0a93918f96541906553cd49a9320, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -5.54825341e-08
-      objectReference: {fileID: 0}
-    - target: {fileID: 439344, guid: 0c5f0a93918f96541906553cd49a9320, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: .954035878
-      objectReference: {fileID: 0}
-    - target: {fileID: 439344, guid: 0c5f0a93918f96541906553cd49a9320, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 0c5f0a93918f96541906553cd49a9320, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1772448486
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,6 +1758,10 @@ Prefab:
     - target: {fileID: 421908, guid: aaeab39140ed48f49858c50d8e11e076, type: 2}
       propertyPath: m_LocalRotation.w
       value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455386, guid: aaeab39140ed48f49858c50d8e11e076, type: 2}
+      propertyPath: m_Convex
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaeab39140ed48f49858c50d8e11e076, type: 2}
@@ -2080,7 +2084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: 0
-  avatar: {fileID: 768189474}
+  avatar: {fileID: 1226178296}
   impulseCounter: 0
   zone: 4
   anim: 0

@@ -15,7 +15,14 @@ public class SpasticForce : MonoBehaviour
 
     public void AddImpulseForce()
     {
-        _rb.AddForce(Force, ForceMode.Impulse);
+        float x, y, z;
+
+        x = Random.Range(20, 48);
+        y= Random.Range(20, 43);
+        z = Random.Range(10, 30);
+
+        Vector3 force = new Vector3(x,y,z);
+        _rb.AddForce(force, ForceMode.Impulse);
     }
 
 

@@ -79,7 +79,7 @@ public class AvatarMotionPlay : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-
+        return;
         /*if (Input.GetKeyDown(KeyCode.A))
             SendImpulse(AnimationToPlay.Eat);
 

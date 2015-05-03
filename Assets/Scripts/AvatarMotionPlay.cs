@@ -7,7 +7,8 @@ public enum AnimationToPlay
     Handshake,
     DrinkWine,
     Kiss,
-    Eat
+    Eat,
+	Slap
 }
 
 public class AvatarMotionPlay : MonoBehaviour
@@ -38,12 +39,14 @@ public class AvatarMotionPlay : MonoBehaviour
 
     public void SendImpulse(AnimationToPlay anim, Zones zone)
 	{
-        IsSendingImpulse = true;
+        
 		if(zone == ZoneManager.Instance.correctZone)
 		{
+			anim = AnimationToPlay.Slap;
+			IsSendingImpulse = true;
 			if (CurrentAnimation != anim)
 			{
-				animator.SetTrigger(anim.ToString());
+				animator.SetTrigger(AnimationToPlay.Slap.ToString());
 				CurrentAnimation = anim;
 				//Debug.Log("New animation set");
 			}

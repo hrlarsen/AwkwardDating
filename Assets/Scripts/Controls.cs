@@ -12,17 +12,23 @@ public class Controls : MonoBehaviour {
     {
         //Debug.Log("The trigger has been triggered:" + trigger.name);
 
-        trigger.GetComponent<ZoneTrigger>().counter++;
+        if (trigger.GetComponent<ZoneTrigger>() != null)
+        {
+            trigger.GetComponent<ZoneTrigger>().counter++;
 
-        myLastZone = trigger.GetComponent<ZoneTrigger>();
+            myLastZone = trigger.GetComponent<ZoneTrigger>();
+        }
 
     }
     void OnTriggerExit(Collider trigger)
     {
-        trigger.GetComponent<ZoneTrigger>().counter--;
-        //Debug.Log("The trigger has been NOT triggered:" + trigger.name);
+        if (trigger.GetComponent<ZoneTrigger>() != null)
+        {
+            trigger.GetComponent<ZoneTrigger>().counter--;
+            //Debug.Log("The trigger has been NOT triggered:" + trigger.name);
 
-        //myLastZone = null;
+            //myLastZone = null;
+        }
     }
     void Start () {
         Myrigidbody = gameObject.GetComponent<Rigidbody>();

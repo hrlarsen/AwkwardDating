@@ -10,7 +10,7 @@ public class CameraSpeedSetter : MonoBehaviour
         {
             ZoneManager.Instance.CameraMoveSpeed = CameraSpeed;
 
-            Debug.Log("new speed");
+            //Debug.Log("new speed");
         }
     }
 }

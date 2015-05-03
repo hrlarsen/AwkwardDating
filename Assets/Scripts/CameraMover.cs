@@ -18,7 +18,7 @@ public class CameraMover : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.G))
             Ready = true;
 
         if (!Ready)

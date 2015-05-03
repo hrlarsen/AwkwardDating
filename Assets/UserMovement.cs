@@ -77,7 +77,7 @@ public class UserMovement : MonoBehaviour {
 
 	void FixedUpdate()
 	{
-		myRigidbody.MovePosition(transform.position + direction * 0.05f);
+        myRigidbody.MovePosition(transform.position + direction * ZoneManager.Instance.PlayerSpeed);
 		direction = Vector3.Slerp(direction, Vector3.zero, Time.fixedDeltaTime * 3);
 
 	}

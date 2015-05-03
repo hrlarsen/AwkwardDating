@@ -24,6 +24,6 @@ public class CameraMover : MonoBehaviour
         if (!Ready)
             return;
 
-        transform.Translate(Vector3.right * Speed * Time.deltaTime);
+        transform.Translate(Vector3.right * ZoneManager.Instance.CameraMoveSpeed * Time.deltaTime);
     }
 }

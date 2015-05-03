@@ -1,0 +1,594 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 2a6a0a5b3fa6d354da2234ed1bd8bdb7
+timeCreated: 1430603522
+licenseType: Free
+=======
+guid: 146063a1c8c2f4f379b0e93be54750a4
+timeCreated: 1430602793
+licenseType: Pro
+>>>>>>> b57023696c28a72a77fb99be9bc2385b2a6888b2
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Chest_CTRL
+    100002: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group
+    100004: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Head_End
+    100006: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Head_Start
+    100008: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip
+    100010: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip_CTRL
+    100012: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_CTRL
+    100014: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow
+    100016: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand
+    100018: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_IK
+    100020: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist
+    100022: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone
+    100024: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Foot_Ankle
+    100026: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Foot_Heel
+    100028: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Foot_toe
+    100030: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_End
+    100032: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Lower
+    100034: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Start
+    100036: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Upper
+    100038: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Leg_CTRL
+    100040: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Leg_IK
+    100042: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Leg_Knee
+    100044: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_End
+    100046: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Lower
+    100048: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Start
+    100050: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Upper
+    100052: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_End
+    100054: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Lower
+    100056: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Start
+    100058: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Upper
+    100060: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_End
+    100062: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Lower
+    100064: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Start
+    100066: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Upper
+    100068: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder
+    100070: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Thum_End
+    100072: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Thum_Middle
+    100074: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Thum_Start
+    100076: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Upper_Leg
+    100078: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__Body01
+    100080: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group
+    100082: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__bodyGeo1
+    100084: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__bodyGeo2
+    100086: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube1
+    100088: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube10
+    100090: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube11
+    100092: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube12
+    100094: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube14
+    100096: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube15
+    100098: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube16
+    100100: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube17
+    100102: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube18
+    100104: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube2
+    100106: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube4
+    100108: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube6
+    100110: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube7
+    100112: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube8
+    100114: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube9
+    100116: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pSphere1
+    100118: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pSphere2
+    100120: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform1
+    100122: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform10
+    100124: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform11
+    100126: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform12
+    100128: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform13
+    100130: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform14
+    100132: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform15
+    100134: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform16
+    100136: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform17
+    100138: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform18
+    100140: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform19
+    100142: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform2
+    100144: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform3
+    100146: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform4
+    100148: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform5
+    100150: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform6
+    100152: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform7
+    100154: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform8
+    100156: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform9
+    100158: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_CTRL
+    100160: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow
+    100162: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand
+    100164: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_IK
+    100166: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist
+    100168: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone
+    100170: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Foot_Ankle
+    100172: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Foot_Heel
+    100174: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Foot_toe
+    100176: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_End
+    100178: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Lower
+    100180: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Start
+    100182: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Upper
+    100184: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Leg_CTRL
+    100186: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Leg_IK
+    100188: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Leg_Knee
+    100190: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_End
+    100192: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Lower
+    100194: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Start
+    100196: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Upper
+    100198: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_End
+    100200: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Lower
+    100202: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Start
+    100204: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Upper
+    100206: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_End
+    100208: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Lower
+    100210: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Start
+    100212: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Upper
+    100214: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder
+    100216: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Thum_End
+    100218: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Thum_Middle
+    100220: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Thum_Start
+    100222: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Upper_Leg
+    100224: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_IK
+    100226: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_IK_Curve
+    100228: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body
+    100230: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck
+    100232: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body
+    100234: //RootNode
+    400000: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Chest_CTRL
+    400002: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group
+    400004: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Head_End
+    400006: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Head_Start
+    400008: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip
+    400010: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip_CTRL
+    400012: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_CTRL
+    400014: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow
+    400016: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand
+    400018: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_IK
+    400020: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist
+    400022: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone
+    400024: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Foot_Ankle
+    400026: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Foot_Heel
+    400028: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Foot_toe
+    400030: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_End
+    400032: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Lower
+    400034: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Start
+    400036: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Upper
+    400038: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Leg_CTRL
+    400040: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Leg_IK
+    400042: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Leg_Knee
+    400044: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_End
+    400046: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Lower
+    400048: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Start
+    400050: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Upper
+    400052: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_End
+    400054: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Lower
+    400056: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Start
+    400058: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Upper
+    400060: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_End
+    400062: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Lower
+    400064: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Start
+    400066: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Upper
+    400068: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder
+    400070: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Thum_End
+    400072: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Thum_Middle
+    400074: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Thum_Start
+    400076: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Upper_Leg
+    400078: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__Body01
+    400080: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group
+    400082: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__bodyGeo1
+    400084: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__bodyGeo2
+    400086: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube1
+    400088: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube10
+    400090: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube11
+    400092: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube12
+    400094: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube14
+    400096: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube15
+    400098: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube16
+    400100: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube17
+    400102: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube18
+    400104: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube2
+    400106: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube4
+    400108: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube6
+    400110: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube7
+    400112: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube8
+    400114: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube9
+    400116: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pSphere1
+    400118: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pSphere2
+    400120: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform1
+    400122: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform10
+    400124: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform11
+    400126: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform12
+    400128: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform13
+    400130: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform14
+    400132: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform15
+    400134: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform16
+    400136: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform17
+    400138: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform18
+    400140: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform19
+    400142: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform2
+    400144: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform3
+    400146: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform4
+    400148: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform5
+    400150: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform6
+    400152: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform7
+    400154: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform8
+    400156: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform9
+    400158: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_CTRL
+    400160: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow
+    400162: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand
+    400164: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_IK
+    400166: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist
+    400168: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone
+    400170: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Foot_Ankle
+    400172: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Foot_Heel
+    400174: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Foot_toe
+    400176: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_End
+    400178: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Lower
+    400180: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Start
+    400182: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Upper
+    400184: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Leg_CTRL
+    400186: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Leg_IK
+    400188: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Leg_Knee
+    400190: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_End
+    400192: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Lower
+    400194: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Start
+    400196: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Upper
+    400198: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_End
+    400200: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Lower
+    400202: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Start
+    400204: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Upper
+    400206: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_End
+    400208: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Lower
+    400210: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Start
+    400212: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Upper
+    400214: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder
+    400216: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Thum_End
+    400218: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Thum_Middle
+    400220: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Thum_Start
+    400222: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Upper_Leg
+    400224: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_IK
+    400226: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_IK_Curve
+    400228: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body
+    400230: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck
+    400232: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body
+    400234: //RootNode
+    4300000: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__Body01
+<<<<<<< HEAD
+    7400000: Take 001
+=======
+    7400000: Slap
+>>>>>>> b57023696c28a72a77fb99be9bc2385b2a6888b2
+    9500000: //RootNode
+    13700000: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__Body01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+<<<<<<< HEAD
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+=======
+    clipAnimations:
+    - serializedVersion: 16
+      name: Slap
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 84
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Leg_CTRL
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__Body01
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__bodyGeo1
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__bodyGeo1/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform1
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__bodyGeo2
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__bodyGeo2/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform3
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube1
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube1/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform19
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube2
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube2/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform18
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube4
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube4/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform17
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube6
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube6/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform16
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube7
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube7/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform15
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube8
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube8/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform14
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube9
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube9/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform2
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube10
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube10/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform13
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube11
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube11/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform12
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube12
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube12/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform11
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube14
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube14/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform8
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube15
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube15/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform7
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube16
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube16/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform6
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube17
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube17/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform5
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube18
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pCube18/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform4
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pSphere1
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pSphere1/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform10
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pSphere2
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__pasted__pSphere2/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:pasted__transform9
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:group/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Leg_CTRL
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Upper_Leg
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Upper_Leg/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Leg_Knee
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Upper_Leg/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Leg_Knee/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Foot_Ankle
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Upper_Leg/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Leg_Knee/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Foot_Ankle/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Foot_toe
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Upper_Leg/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Leg_Knee/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Foot_Ankle/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Foot_toe/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Foot_Heel
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Upper_Leg
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Upper_Leg/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Leg_Knee
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Upper_Leg/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Leg_Knee/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Foot_Ankle
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Upper_Leg/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Leg_Knee/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Foot_Ankle/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Foot_toe
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Upper_Leg/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Leg_Knee/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Foot_Ankle/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Foot_toe/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Foot_Heel
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Head_Start
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Head_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Head_End
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Start
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Upper
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Lower
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_Lower/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_IndexFinger_End
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Start
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Upper
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Lower
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_Lower/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_MiddleFinger_End
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Start
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Upper
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Lower
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_Lower/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Pinky_End
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Start
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Upper
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Lower
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_Lower/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_RingFinger_End
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Thum_Start
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Thum_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Thum_Middle
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Thum_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Thum_Middle/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Thum_End
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Start
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Upper
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Lower
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_Lower/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_IndexFinger_End
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Start
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Upper
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Lower
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_Lower/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_MiddleFinger_End
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Start
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Upper
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Lower
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_Lower/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Pinky_End
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Start
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Upper
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Lower
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Hand/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Upper/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_Lower/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_RingFinger_End
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Thum_Start
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Thum_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Thum_Middle
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Lower_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Upper_Body/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_Neck/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Collarbone/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Shoulder/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Elbow/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_Wrist/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Thum_Start/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Thum_Middle/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Thum_End
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip_CTRL
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip_CTRL/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Chest_CTRL
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip_CTRL/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Chest_CTRL/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_CTRL
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Hip_CTRL/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Chest_CTRL/MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_CTRL
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Arm_IK
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:L_Leg_IK
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Arm_IK
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:R_Leg_IK
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_IK
+        weight: 1
+      - path: MainBody_01_Mesh_Skeleton_Skind_Handles_CharacterSet_WPaint:Spine_IK_Curve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 30
+>>>>>>> b57023696c28a72a77fb99be9bc2385b2a6888b2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+<<<<<<< HEAD
+  copyAvatar: 1
+=======
+  copyAvatar: 0
+>>>>>>> b57023696c28a72a77fb99be9bc2385b2a6888b2
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+<<<<<<< HEAD
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 26c05762c0bd40b4780d21a9af53e369,
+    type: 3}
+=======
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+>>>>>>> b57023696c28a72a77fb99be9bc2385b2a6888b2
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

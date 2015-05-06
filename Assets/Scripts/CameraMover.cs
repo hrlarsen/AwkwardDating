@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
@@ -18,6 +19,8 @@ public class CameraMover : MonoBehaviour
         _transform = transform;
     }
 
+    public List<GameObject> Borders;
+
     public void StartGame()
     {
         Ready = true;
@@ -25,6 +28,9 @@ public class CameraMover : MonoBehaviour
         StartButton.SetActive(false);
 
         GetComponent<AudioSource>().Play();
+
+        foreach(GameObject g in Borders)
+            g.SetActive(false);
     }
 
     // Update is called once per frame

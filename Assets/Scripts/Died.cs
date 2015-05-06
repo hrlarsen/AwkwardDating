@@ -26,7 +26,7 @@ public class Died : MonoBehaviour
         iTween.PunchScale(gameObject, f, 0.5f);
 
         Transform camDefault = ZoneManager.Instance.MainCamera.transform;
-        iTween.ShakePosition(ZoneManager.Instance.MainCamera, f, 0.12f);
+        //iTween.ShakePosition(ZoneManager.Instance.MainCamera, f, 0.12f);
     }
 
     // Update is called once per frame

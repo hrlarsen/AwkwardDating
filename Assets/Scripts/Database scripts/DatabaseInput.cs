@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class DatabaseInput : MonoBehaviour 
 {
-	private readonly string secret =  "PCJzWZKr*k!#%hYX2gMp";
+	private readonly string secret =  "xxxx";
 	private string getURL = "http://tunnelvisiongames.com/twitchplaysoctodad/GetUserData.php";
 	private string getUsersURL = "http://tunnelvisiongames.com/twitchplaysoctodad/GetUsers.php";
 	public delegate void UserDataDelegate(List<UserMovementDataObject> userDataCollection);
